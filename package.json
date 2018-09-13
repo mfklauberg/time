@@ -15,7 +15,7 @@
   ],
   "main": "build/index.js",
   "scripts": {
-    "babel": "babel src -d build ./index.js --copy-files --ignore './**/*.test.js'",
+    "babel": "babel src -d build --copy-files --ignore './**/*.test.js'",
     "clean": "rimraf build",
     "build": "npm run clean && npm run babel",
     "test": "jest",
