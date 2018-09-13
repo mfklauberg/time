@@ -11,7 +11,8 @@
     "time",
     "manipulation",
     "time format",
-    "format"
+    "format",
+    "immutable"
   ],
   "main": "build/index.js",
   "scripts": {
@@ -19,7 +20,7 @@
     "clean": "rimraf build",
     "build": "npm run clean && npm run babel",
     "test": "jest",
-    "release": "np"
+    "release": "np --no-yarn"
   },
   "author": "Matheus Klauberg <mfklauberg@gmail.com>",
   "license": "MIT",

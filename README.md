@@ -90,8 +90,8 @@ const y = time(1, HOURS).add(1, MINUTES).add(1, SECONDS);
 const options = {
   hour: 'hora',
   hours: 'horas',
-  minute: 'minute',
-  minutes: 'minutes',
+  minute: 'minuto',
+  minutes: 'minutos',
   second: 'segundo',
   seconds: 'segundos'
 };
