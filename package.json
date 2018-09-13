@@ -2,6 +2,10 @@
   "name": "@mfklauberg/time",
   "version": "0.0.0",
   "description": "easy time manipulation in javascript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfklauberg/time.git"
+  },
   "keywords": [
     "time manipulation",
     "time",
