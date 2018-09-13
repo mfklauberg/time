@@ -1,0 +1,33 @@
+{
+  "name": "@mfklauberg/time",
+  "version": "0.0.0",
+  "description": "easy time manipulation in javascript",
+  "keywords": [
+    "time manipulation",
+    "time",
+    "manipulation",
+    "time format",
+    "format"
+  ],
+  "main": "build/index.js",
+  "scripts": {
+    "babel": "babel src -d build ./index.js --copy-files --ignore './**/*.test.js'",
+    "clean": "rimraf build",
+    "build": "npm run clean && npm run babel",
+    "test": "jest",
+    "release": "np"
+  },
+  "author": "Matheus Klauberg <mfklauberg@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "rimraf": "^2.6.2",
+    "np": "*"
+  }
+}
