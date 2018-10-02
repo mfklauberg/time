@@ -3,7 +3,7 @@
 *Any change needs to be discussed before proceeding. Failure to do so may result in the rejection of the pull request.*
 
 **Closing issues**
-* [ ] `closes #XXXX` Auto-close the issue that your PR fixes (if such).
+* [ ] closes #XXXX - Auto-close the issue that your PR fixes (if such).
 
 ### All Submissions:
 
