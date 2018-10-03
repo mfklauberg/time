@@ -6,7 +6,7 @@ interface TimeCallback {
     add(value: string | number, unit: string): TimeCallback;
     subtract(value: string | number, unit: string): TimeCallback;
     toNumber(value: string | number, unit: string): TimeCallback;
-    format(options?: formatOption): TimeCallback;
+    format(options?: formatOption): void;
 }
 
 declare namespace time {
