@@ -15,6 +15,7 @@
     "immutable"
   ],
   "main": "build/index.js",
+  "types": "./src/index.d.ts",
   "scripts": {
     "babel": "babel src -d build --copy-files --ignore './**/*.test.js'",
     "clean": "rimraf build",
